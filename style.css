@@ -61,7 +61,7 @@ body{
     /*for mobile phoones*/
     [class*=icons]{
         position:relative;
-        margin-left:384px;
+        margin-left:250px;
     }
 }
 #fb{
