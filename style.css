@@ -19,6 +19,7 @@ li,a{
     display:inline;
     padding-left: 90px;
     color:black;
+    font:bold;
 }
 li a:hover{
     background-color:gainsboro;
@@ -49,10 +50,18 @@ body{
     display: block;
     word-spacing:10px;
 }
+/*for desktop*/
 .icons{
     font-size:40px;
     margin-left:612px;
     
+}
+@media only screen and (max-width:768px)
+{
+    /*for mobile phoones*/
+    [class*=icons]{
+        margin-left:384px;
+    }
 }
 #fb{
     color: dodgerblue;
